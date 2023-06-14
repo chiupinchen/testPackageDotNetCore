@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>testDotNetCoreApp</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Chiupin Chen</Authors>
+    <Company>CC</Company>
+    <PackageDescription>PACKAGE_DESCRIPTION</PackageDescription>
+    <RepositoryUrl>https://github.com/chiupinchen/testDotNetCore</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
