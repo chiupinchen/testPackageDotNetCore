@@ -26,7 +26,7 @@ jobs:
     - name: Prep packages
       run: dotnet nuget add source --username chiupinchen --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/chiupinchen/index.json"
     - name: publish
-      run: dotnet nuget push bin/Release/*.nupkg --source github --skip-duplicate
+      run: dotnet nuget push bin/Release/*.nupkg --api-key ${{ secrets.PAT }} --source "github" --skip-duplicate
          
       
   
